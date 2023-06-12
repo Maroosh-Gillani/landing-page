@@ -43,6 +43,7 @@ a {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
+    margin-right: auto;
 }
 
 .sub-header-container {
@@ -57,12 +58,13 @@ a {
     font-weight: bolder;
 }
 
-.sub-header button {
+button {
     background-color: #3882F6;
     border-style: none;
     color: #F9FAF8;
     padding: 4px 16px;
     border-radius: 4px;
+    font-weight: bold;
 }
 
 .content-container {
@@ -73,6 +75,8 @@ a {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    padding: 0;
+    margin: 0 0 16px 0;
 }
 
 
@@ -117,3 +121,24 @@ a {
     margin: 0;
     padding: 8px;
 }
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+}
+
+.blue-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 16px;
+    border-radius: 8px;
+    gap: 10px;
+}
+
+.blue-box button {
+    border: solid 2px #F9FAF8;
+}
+
